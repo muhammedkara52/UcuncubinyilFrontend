@@ -21,7 +21,7 @@
     <h5>Lorem ipsum dolor sit amet.</h5>
     <h6>Lorem ipsum dolor sit amet consectetur.</h6>
 
-    <!-- BOLD EİTKETİ -->
+    <!-- "BOLD" EİTKETİ -->
 
     <b>Bu etiket yazıları kalın yazar.</b>
     <br><br>
@@ -33,12 +33,76 @@
 
     <!-- "İMAGE" ETİKETİ -->
 
-    <img src="../images/1.jpg" alt="araba" height="100px" width="150px">
+    <img src="../images/1.jpg" alt="araba" height="100px" width="150px" title="araba resmi">
     <br><br>
 
-    <img src="https://www.locopoco.com/productimages/163075/big/56033_yamaha-factory-racing-team-2022-model-motosiklet-118.jpg" alt="mavi motosiklet" height="200">
+    <img src="https://www.locopoco.com/productimages/163075/big/56033_yamaha-factory-racing-team-2022-model-motosiklet-118.jpg" alt="mavi motosiklet" height="200" title="motor resmi">
 
+    <!-- "a href" ETİKETİ -->
+
+    <a href="https://www.google.com" title="Lin üzerine gelinde bilgi verir." target="_blank">Bu etiket link verme, yönlendirme olarak kullanılır.</a>
+                                <!-- **********NOT********** -->
+
+        <!-- * SSR - SERVER SIDE RENDERİNG - COMPALİER İŞLEMİ SUNUCUDA YAPILIYOR İSE;
+        * CSR - CLİENT SİDE RENDERİNG - COMPALİER İŞLEMİ KULLANICI TARAFINDA APILIYOR İSE; -->
+     
+     <hr>
+        
+    <h2 style="color: red;">FORM ELEMANLARI</h2>
+
+    <!-- "İNPUT" ETİKETİ -->
     
+    <form action="">
+    
+     <label>İsim :</label>&nbsp;&nbsp;<input type="text" placeholder="İsmizini yazınız.">
 
+    <input type="button" value="Gönder">
+    <button type="button">Geri Al</button>
+    <hr> 
+    <!-- *Çizgi bırakmak için kullanılır. -->
+
+    <label>Mail Adresi :</label>&nbsp;&nbsp;<input type="email">
+    <input type="submit" value="Gönder"><br><br>
+
+    <label>Şifre Giriniz : </label>&nbsp;&nbsp;<input type="password" name="" id="" placeholder="Şifre Giriniz.">
+
+    <br><br>
+
+    <label>Yaşınızı Giriniz : </label>&nbsp;&nbsp;<input type="number" name="" id="" placeholder="Yaşınızı Giriniz.">
+
+    <br><br>
+
+    <label>Doğum Tarihinizi Giriniz : </label>&nbsp;&nbsp;<input type="date" name="" id="">
+    
+    <br><br>
+
+    <input type="checkbox"><label>Onaylıyorum</label>&nbsp;&nbsp;
+
+    <br><br>
+    
+    <h3>Cinsiyetiniz Nedir?</h3>
+    <input type="radio"><label>Erkek</label>&nbsp;&nbsp;
+    <input type="radio"><label>Kadın</label>&nbsp;&nbsp;
+
+    <br><br>
+
+    <input type="file" name="" id="">
+
+    <br><br>
+
+    <textarea name="" id="" cols="30" rows="10">Biyografinizi Giriniz.</textarea>
+
+    <br><br>
+
+    <h3>Yaşadığınız Şehri Seçiniz.</h3>
+
+    <select name="" id="">
+        <option value="Ankara">Ankara</option>
+        <option value="İstanbul">İstanbul</option>
+        <option value="İzmir">İzmir</option>
+    </select>
+
+</form>
+<hr>
 </body>
 </html>
