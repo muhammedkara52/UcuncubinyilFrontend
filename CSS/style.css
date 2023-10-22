@@ -1,2 +1,56 @@
 /*TÜM CSS'LERİMİZ BURADAN YAZIYORUZ.*/
 
+/**{                           RESET CSS
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    background-color: #e2e2e2;
+}
+
+.title{
+    color: red;
+    font-weight: 100;
+    font-size: 32px;
+}
+
+#konum{
+    color:blue;
+}
+
+#bilgi{
+    color: blueviolet;
+}
+
+.derece{
+    color: red; !important
+}
+
+h4{
+    color: green;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.kırmızı{
+    color: red;
+}
+
+.resim2{
+    width: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.yazı{
+    color: blue;
+    font-size: 20px;
+    font-weight: 200;
+}
