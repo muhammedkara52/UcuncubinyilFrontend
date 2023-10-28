@@ -54,3 +54,13 @@ img{
     font-size: 20px;
     font-weight: 200;
 }
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+/*CSS FLEX*/
+
+

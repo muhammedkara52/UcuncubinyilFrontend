@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+img{
+    height: 50px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.header-wrapper{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: -7px 3px 33px 3px;
+}
+
+.right-area{
+    display: flex;
+    align-items: center;
+}
+
+.categories > ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 30px;
+}
+
+.demo-button{
+    background-color: rgb(208, 255, 0);
+    color: rgb(36, 33, 33);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
