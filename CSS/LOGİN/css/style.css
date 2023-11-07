@@ -66,6 +66,11 @@ body, span, p, button,a {
     cursor: pointer;
 }
 
+
+.form_section > button:hover {
+    background-color: #2e2b2b;
+}
+
 .social_media_buttons {
     display: flex;
     flex-direction: column;
